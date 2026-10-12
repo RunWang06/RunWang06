@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Run Wang</title>
+  <desc id="desc">A coastal sunset in navy, coral, and gold. Code, curiosity, and a little sunset.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101e36"/>
+      <stop offset="0.55" stop-color="#293b57"/>
+      <stop offset="1" stop-color="#bc6970"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffdc9e"/>
+      <stop offset="1" stop-color="#f69477"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#112d46"/>
+      <stop offset="1" stop-color="#344a64"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="340" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#sky)"/>
+    <circle cx="953" cy="182" r="111" fill="#f6b996" opacity="0.07"/>
+    <circle cx="953" cy="182" r="86" fill="#f6b996" opacity="0.08"/>
+    <circle cx="953" cy="182" r="61" fill="url(#sun)"/>
+    <path d="M0 240 Q190 211 390 239 T780 238 T1200 231 V340 H0Z" fill="url(#sea)"/>
+    <path d="M0 282 Q185 245 401 275 T795 279 T1200 260 V340 H0Z" fill="#10283e" opacity="0.7"/>
+    <path d="M0 312 Q220 285 440 309 T880 306 T1200 309 V340 H0Z" fill="#0c2033"/>
+    <g fill="none" stroke="#f4c599" stroke-linecap="round">
+      <path d="M919 253 H986" opacity="0.55" stroke-width="3"/>
+      <path d="M904 265 H997" opacity="0.3" stroke-width="2"/>
+      <path d="M930 279 H976" opacity="0.2" stroke-width="2"/>
+    </g>
+    <g fill="#d9e5ef" opacity="0.65">
+      <circle cx="771" cy="62" r="2"/><circle cx="1102" cy="81" r="2"/><circle cx="694" cy="108" r="1.5"/>
+    </g>
+    <text x="68" y="83" fill="#f3bd9c" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="13" letter-spacing="4">HELLO, WORLD</text>
+    <text x="64" y="158" fill="#f7f6f2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-2">Run Wang</text>
+    <text x="68" y="200" fill="#d5dde7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="20">Code, curiosity, and a little sunset.</text>
+    <rect x="68" y="221" width="48" height="3" rx="1.5" fill="#f3bd9c"/>
+  </g>
+</svg>
